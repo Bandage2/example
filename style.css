@@ -154,11 +154,7 @@ top: 3%;
 	color: white;
 	font-size: 24px;
 }
-.newcollection button:hover
-{
-	width: 40%;
-	height: 40%;
-}
+
 .newcollection p 
 {
 	color: #FFFFFF;
@@ -898,6 +894,12 @@ color: #737373;
  }
 @media  (max-width: 991px)
 {
+	.navbar button
+	{
+		   position: absolute;
+		    right: 4%;
+		    top: 17px;
+	}
 	.men-btn
 	{
 		position: absolute;
@@ -922,12 +924,12 @@ color: #737373;
 	{
 		display: none;
 	}
-	.navbar button
-	{
-		    position:fixed;
-    right: 4%;
-    top: 4%;
-	}
+	.women-btn {
+  position: absolute;
+  bottom: 25px;
+  left: 13px;
+  background: #FFFFFF;
+}
 	
 	.dropdown, .desk
 	{
@@ -973,9 +975,12 @@ color: #737373;
 		left: 35px;
 		width: 87%;
 	}
-	.newcollection p 
+	.newcollection  
 	{
-
+          position: absolute;
+bottom: 257px;
+width: 70%;
+left: 56px;
 	}
 	.input-group
   {
@@ -990,7 +995,23 @@ color: #737373;
 		margin-left: 68px;
 		width: 69%;
 	}
-	
+	.newcollection p
+	 {
+	  text-align: center;
+	  letter-spacing: 0.1px;
+	  margin-top: 35px;
+	  font-size: 30px;
+	  line-height: 50px;
+	  position: absolute;
+	  margin-right: 76px;
+     right: -144px;
+}
+.newcollection button 
+{
+      margin-left: -68px;
+    margin-top: 29px;
+}
+
 }
 @media (max-width: 1199px)
 
@@ -1011,7 +1032,7 @@ color: #737373;
 {
 	position: absolute;
 	bottom: 25px;
-	left: 156px;
+	left: 17px;
 	background: #FFFFFF;
 }
 
@@ -1020,15 +1041,15 @@ color: #737373;
 {
 	.navbar button
 	{
-		    position:fixed;
+		   position: absolute;
 		    right: 4%;
 		    top: 16px;
 	}
 	.newcollection button
 	{
 		position: absolute;
-		top: 416px;
-left: 53px;
+top: 380px;
+left: 68px;
 	}
 	.universe .read
 	{
@@ -1051,6 +1072,13 @@ left: 53px;
 		position: absolute;
 		left: 145px;
 	}
+		.women-btn 
+{
+	position: absolute;
+	bottom: 25px;
+	left: 189px;
+	background: #FFFFFF;
+}
 	.ft-icon
 	{
 		position: absolute;
@@ -1168,45 +1196,15 @@ left: 72px;
     {
     	display:none;
     }
-   /* .newcollection
-	{
-		position: absolute;
-		left:172px;
-		font-size: 40px;
-		bottom: -111%;
-	}*/
+   
           .newcollection
      {
      	position: absolute;
-bottom: 203px;
-width: 64%;
-left: 72px;
+		bottom: 203px;
+		width: 64%;
+		left: 72px;
      }
-   /*  .newcollection h5 
-     {
-     	text-align: center;
-     	letter-spacing: 0.1px;
-		font-size: 16px;
-     }
-      .newcollection h2 
-     {
-     	text-align: center;
-     	letter-spacing: 0.1px;
-     	left: 145px;
-		font-size: 40px;
-		line-height: 50px;
-		margin-left: 157px;
-     }
-     .newcollection p
-     {
-     	text-align: center;
-     	letter-spacing: 0.1px;
-     	left: 145px;
-		font-size: 40px;
-		line-height: 50px;
-     	left: 145px;
-		position: absolute;
-     }*/
+  
 }
 @media (max-width: 450px)
 {
@@ -1214,4 +1212,35 @@ left: 72px;
 	{
 		margin: 20px 0 0 62px;
 	}
+		.women-btn 
+{
+	position: absolute;
+	bottom: 25px;
+	left: 105px;
+	background: #FFFFFF;
+}
+.newcollection p {
+  text-align: center;
+  letter-spacing: 0.1px;
+  margin-top: 35px;
+  font-size: 30px;
+  line-height: 50px;
+  position: absolute;
+  margin-right: 76px;
+right: -137px;
+}
+.newcollection button {
+ margin-left: -55px;
+    margin-top: 29px;
+}
+.newcollection h2 {
+  text-align: center;
+  margin: 0 auto;
+  letter-spacing: 0.1px;
+  left: -22px;
+  font-size: 40px;
+  line-height: 50px;
+  right: -84px;
+  position: relative;
+}
 }
