@@ -5,6 +5,22 @@
 	background: #252B42;
 	padding: 20px 19px 10px 19px;
 }
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: .5rem;
+}
+.navbar-light .navbar-brand {
+  
+  position: relative;
+  height: 56px;
+  display: inline-block;
+}
+
 .header-info
 {
 	  margin-left: 38px;
@@ -100,6 +116,7 @@ top: 3%;
 	right: 66px;
 	top: 1%;
 }
+
 /*Login css*/
 .login a 
 {
@@ -121,6 +138,7 @@ top: 3%;
 {
 	position: absolute;
 	bottom: 58px;
+	width: 64%;
 }
 .newcollection button
 {
@@ -906,9 +924,9 @@ color: #737373;
 	}
 	.navbar button
 	{
-		position: absolute;
-		right: 0%;
-		top: 1%;
+		    position:fixed;
+    right: 4%;
+    top: 4%;
 	}
 	
 	.dropdown, .desk
@@ -926,38 +944,7 @@ color: #737373;
 		bottom: -163px;
         left: 63px;
 	}
-	.newcollection button
-	{
-		bottom: 9%;
-		position: relative;
-		width: 221px;
-		font-size: 24px;
-		height: 62px;
-	}
-	.newcollection h2
-	{
-		font-size: 40px;
-		font-weight: 700;
-
-	}
-	.newcollection h5 
-	{
-	  font-weight: 700;
-	  justify-content: center;
-	  display: flex;
-	  width: 89%;
-    }
-    .carousel-indicators [data-bs-target]
-    {
-    	display: none;
-    }
-    .newcollection button {
-  width: 135px;
-  height: 36px;
-  font-size: 11px;
-  display: block ruby;
-  margin-left: 115px;
-}
+	
 
 }
 @media  (min-width: 350px) and (max-width: 423px)
@@ -984,6 +971,11 @@ color: #737373;
 	{
 		position: absolute;
 		left: 35px;
+		width: 87%;
+	}
+	.newcollection p 
+	{
+
 	}
 	.input-group
   {
@@ -1026,6 +1018,12 @@ color: #737373;
 }
 @media (max-width: 767px) 
 {
+	.newcollection button
+	{
+		position: absolute;
+		top: 416px;
+left: 53px;
+	}
 	.universe .read
 	{
 		display: none;
@@ -1114,14 +1112,95 @@ color: #737373;
   {
   	margin: 20px 0 0 111px;
   }
+    .newcollection h5 
+     {
+     	text-align: center;
+     	letter-spacing: 0.1px;
+		font-size: 16px;
+		margin-bottom: 35px;
+     }
+      .newcollection h2 
+     {
+     	text-align: center;
+     	margin: 0 auto;
+     	letter-spacing: 0.1px;
+     	left: 145px;
+		font-size: 40px;
+		line-height: 50px;
+     }
+     .newcollection p
+     {
+     	text-align: center;
+     	letter-spacing: 0.1px;
+     	margin-top: 35px;
+		font-size: 40px;
+		line-height: 50px;
+     	
+		position: absolute;
+     }
+     .carousel-item img 
+     {
+     	object-fit: cover;	
+     	height: 753px;
+     }
+   .newcollection
+     {
+     	position: absolute;
+bottom: 257px;
+width: 70%;
+left: 72px;
+     }
 }
 @media (min-width: 991px)
 {
+	  .carousel-item img 
+     {
+     	object-fit: cover;	
+     	height: 753px;
+     }
 	.mobile
     {
     	display:none;
     }
-
+   /* .newcollection
+	{
+		position: absolute;
+		left:172px;
+		font-size: 40px;
+		bottom: -111%;
+	}*/
+          .newcollection
+     {
+     	position: absolute;
+bottom: 203px;
+width: 64%;
+left: 72px;
+     }
+   /*  .newcollection h5 
+     {
+     	text-align: center;
+     	letter-spacing: 0.1px;
+		font-size: 16px;
+     }
+      .newcollection h2 
+     {
+     	text-align: center;
+     	letter-spacing: 0.1px;
+     	left: 145px;
+		font-size: 40px;
+		line-height: 50px;
+		margin-left: 157px;
+     }
+     .newcollection p
+     {
+     	text-align: center;
+     	letter-spacing: 0.1px;
+     	left: 145px;
+		font-size: 40px;
+		line-height: 50px;
+     	left: 145px;
+		position: absolute;
+     }*/
 }
 @media (max-width: 450px)
 {
