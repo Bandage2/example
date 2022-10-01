@@ -1018,6 +1018,12 @@ color: #737373;
 }
 @media (max-width: 767px) 
 {
+	.navbar button
+	{
+		    position:fixed;
+		    right: 4%;
+		    top: 16px;
+	}
 	.newcollection button
 	{
 		position: absolute;
